@@ -85,4 +85,5 @@ module VX_index_buffer #(
     assign full       = full_r;
     
 endmodule
+
 `TRACING_ON

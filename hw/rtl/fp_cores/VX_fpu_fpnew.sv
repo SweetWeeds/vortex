@@ -204,5 +204,6 @@ module VX_fpu_fpnew #(
     assign valid_out = fpu_valid_out;    
     assign fpu_ready_out = ready_out;
 
-endmodule 
+endmodule
+ 
 `TRACING_ON

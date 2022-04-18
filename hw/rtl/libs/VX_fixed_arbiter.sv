@@ -40,4 +40,5 @@ module VX_fixed_arbiter #(
     end
     
 endmodule
+
 `TRACING_ON

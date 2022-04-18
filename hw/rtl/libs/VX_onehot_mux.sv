@@ -54,4 +54,5 @@ module VX_onehot_mux #(
     end
 
 endmodule
+
 `TRACING_ON

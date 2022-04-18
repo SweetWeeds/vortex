@@ -64,4 +64,5 @@ module VX_popcount #(
 `endif
 
 endmodule
+
 `TRACING_ON

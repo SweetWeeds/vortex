@@ -103,6 +103,9 @@ case $DRIVER in
         DRIVER_PATH=$VORTEX_HOME/driver/simx
         DEBUG_LEVEL=3
         ;;
+    fx3)
+        DRIVER_PATH=$VORTEX_HOME/driver/fx3
+        ;;
     *)
         echo "invalid driver: $DRIVER"
         exit -1

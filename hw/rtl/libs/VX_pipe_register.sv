@@ -74,4 +74,5 @@ module VX_pipe_register #(
     end
 
 endmodule
+
 `TRACING_ON

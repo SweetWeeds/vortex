@@ -57,6 +57,9 @@ run-simx: $(PROJECT) kernel.pocl
 run-rtlsim: $(PROJECT) kernel.pocl   
 	LD_LIBRARY_PATH=$(POCL_RT_PATH)/lib:$(VORTEX_DRV_PATH)/rtlsim:$(LD_LIBRARY_PATH) ./$(PROJECT) $(OPTS)
 
+run-fx3: $(PROJECT) kernel.pocl
+	LD_LIBRARY_PATH=$(POCL_RT_PATH)/lib:$(VORTEX_DRV_PATH)/fx3:$(LD_LIBRARY_PATH) ./$(PROJECT) $(OPTS)
+
 .depend: $(SRCS)
 	$(CXX) $(CXXFLAGS) -MM $^ > .depend;
 

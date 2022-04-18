@@ -85,4 +85,5 @@ module VX_matrix_arbiter #(
     end
     
 endmodule
+
 `TRACING_ON

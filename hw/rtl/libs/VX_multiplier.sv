@@ -67,4 +67,5 @@ module VX_multiplier #(
 `endif
 
 endmodule
+
 `TRACING_ON

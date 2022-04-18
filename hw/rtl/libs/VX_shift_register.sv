@@ -29,6 +29,7 @@ module VX_shift_register_nr #(
 
 endmodule
 
+
 module VX_shift_register_wr #( 
     parameter DATAW  = 1, 
     parameter DEPTH  = 1,
@@ -59,6 +60,7 @@ module VX_shift_register_wr #(
     end
 
 endmodule
+
 
 module VX_shift_register #( 
     parameter DATAW  = 1, 
@@ -138,4 +140,5 @@ module VX_shift_register #(
     end    
 
 endmodule
+
 `TRACING_ON

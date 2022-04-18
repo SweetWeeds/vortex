@@ -149,7 +149,9 @@ int main (int argc, char **argv) {
   
   // Getting platform and device information
   CL_CHECK(clGetPlatformIDs(1, &platform_id, NULL));
+  printf("[INFO] Platform ID: %u\n", platform_id);
   CL_CHECK(clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_DEFAULT, 1, &device_id, NULL));
+  printf("[INFO] Platform ID: %d\n", platform_id);
 
   printf("Create context\n");
   context = CL_CHECK2(clCreateContext(NULL, 1, &device_id, NULL, NULL,  &_err));

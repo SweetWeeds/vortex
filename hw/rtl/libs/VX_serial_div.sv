@@ -99,4 +99,5 @@ module VX_serial_div #(
     assign valid_out = is_busy && done;
 
 endmodule
+
 `TRACING_ON

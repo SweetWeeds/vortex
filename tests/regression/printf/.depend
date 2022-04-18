@@ -1,0 +1,2 @@
+main.o: main.cpp \
+ /mnt/c/Users/user/workspace/vortex/driver/include/vortex.h common.h

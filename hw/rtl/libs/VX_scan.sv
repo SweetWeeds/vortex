@@ -61,4 +61,5 @@ module VX_scan #(
 
 `IGNORE_WARNINGS_END
 endmodule
+
 `TRACING_ON

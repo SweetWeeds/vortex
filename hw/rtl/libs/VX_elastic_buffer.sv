@@ -77,4 +77,5 @@ module VX_elastic_buffer #(
     end
 
 endmodule
+
 `TRACING_ON

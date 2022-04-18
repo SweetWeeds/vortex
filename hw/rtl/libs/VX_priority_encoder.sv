@@ -110,4 +110,5 @@ module VX_priority_encoder #(
     end    
 
 endmodule
+
 `TRACING_ON

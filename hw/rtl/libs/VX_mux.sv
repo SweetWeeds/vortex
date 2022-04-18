@@ -18,4 +18,5 @@ module VX_mux #(
     end
 
 endmodule
+
 `TRACING_ON

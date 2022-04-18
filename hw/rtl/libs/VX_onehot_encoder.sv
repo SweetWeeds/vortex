@@ -104,4 +104,5 @@ module VX_onehot_encoder #(
     end
 
 endmodule
+
 `TRACING_ON

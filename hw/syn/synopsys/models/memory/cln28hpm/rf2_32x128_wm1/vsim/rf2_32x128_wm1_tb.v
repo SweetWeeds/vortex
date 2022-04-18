@@ -85,5 +85,6 @@ module rf2_32x128_wm1_tb (
          .COLLDISN(1'b1)
    );
 
-endmodule 
+endmodule
+ 
 

@@ -1,18 +1,23 @@
 all: runtime regression opencl riscv unittest
 
 runtime:
+	$(info Runtime)
 	$(MAKE) -C runtime
 
 regression:
+	$(info Regression)
 	$(MAKE) -C regression
 
 opencl:
+	$(info OpenCL)
 	$(MAKE) -C opencl
 
 riscv:
+	$(info RISC-V)
 	$(MAKE) -C riscv
 
 unittest:
+	$(info unittest)
 	$(MAKE) -C unittest
 
 clean:

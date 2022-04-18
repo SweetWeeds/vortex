@@ -65,6 +65,7 @@ module rf2_32x128_wm1_scanflop (Q, SI, D, SE, CLK, Xout);
    _MUX m2 (Xout, n1, 1'bX, n2);
    _DFF r1 (1'b0, 1'b0, CLK, n2, Q);
 endmodule
+
 `endcelldefine
 `celldefine
 module rf2_32x128_wm1_bitcell (CLK, WRITE, WA, RA, D, Xout, Q);
@@ -95,6 +96,7 @@ module rf2_32x128_wm1_bitcell (CLK, WRITE, WA, RA, D, Xout, Q);
    assign TIE1 = 1'b1;
    always @ (TIE1 or RA or WRITE_OP) if(TIE1) Q=mem[RA];
 endmodule
+
 `endcelldefine
 `suppress_faults
 `enable_portfaults
@@ -2406,6 +2408,7 @@ module rf2_32x128_wm1 (CENYA, AYA, CENYB, WENYB, AYB, QA, SOA, SOB, CLKA, CENA, 
    assign SOB[0] = QB_int[0];
    assign SOB[1] = QB_int[127];
 endmodule
+
 `undef read_write
 `disable_portfaults
 `nosuppress_faults

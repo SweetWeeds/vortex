@@ -123,13 +123,15 @@ int main (int argc, char **argv) {
   cl_platform_id platform_id;
   size_t kernel_size;
   cl_int binary_status;
+  cl_uint num_platforms;
 
   // read kernel binary from file  
   if (0 != read_kernel_file("kernel.pocl", &kernel_bin, &kernel_size))
     return -1;
   
   // Getting platform and device information
-  CL_CHECK(clGetPlatformIDs(1, &platform_id, NULL));
+  CL_CHECK(clGetPlatformIDs(1, &platform_id, &num_platforms));
+  printf("[INFO] Platform ID: %d, Num Platforms: %d\n", platform_id, num_platforms);
   CL_CHECK(clGetDeviceIDs(platform_id, CL_DEVICE_TYPE_DEFAULT, 1, &device_id, NULL));
 
   printf("Create context\n");

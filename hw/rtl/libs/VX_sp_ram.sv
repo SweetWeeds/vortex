@@ -249,4 +249,5 @@ module VX_sp_ram #(
 `endif    
 
 endmodule
+
 `TRACING_ON

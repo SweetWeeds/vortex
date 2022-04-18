@@ -149,3 +149,4 @@ module VX_csr_unit #(
     assign pending = pending_r;
 
 endmodule
+

@@ -28,4 +28,5 @@ module VX_lzc #(
     );
   
 endmodule
+
 `TRACING_ON

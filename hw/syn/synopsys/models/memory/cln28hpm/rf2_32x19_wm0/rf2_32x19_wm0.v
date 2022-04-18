@@ -90,7 +90,8 @@ module datapath_latch_rf2_32x19_wm0 (CLK,Q_update,SE,SI,D,DFTRAMBYP,mem_path,XQ,
       else
         Q=1'bx;
    end
-endmodule // datapath_latch_rf2_32x19_wm0
+endmodule
+ // datapath_latch_rf2_32x19_wm0
 
 // If ARM_UD_MODEL is defined at Simulator Command Line, it Selects the Fast Functional Model
 `ifdef ARM_UD_MODEL
@@ -1244,6 +1245,7 @@ task dumpaddr;
 
 
 endmodule
+
 `endcelldefine
 `else
 `celldefine
@@ -4150,6 +4152,7 @@ task dumpaddr;
 
 
 endmodule
+
 `endcelldefine
   `endif
   `else
@@ -5276,6 +5279,7 @@ task dumpaddr;
 
 
 endmodule
+
 `endcelldefine
 `else
 `celldefine
@@ -8160,6 +8164,7 @@ task dumpaddr;
 
 
 endmodule
+
 `endcelldefine
   `endif
 `endif
@@ -8307,3 +8312,4 @@ begin
       Q_out = Q_in;
    end
 endmodule
+

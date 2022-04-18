@@ -46,4 +46,5 @@ module VX_pending_size #(
     assign size  = {full_r, used_r};
   
 endmodule
+
 `TRACING_ON

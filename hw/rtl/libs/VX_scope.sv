@@ -241,4 +241,5 @@ module VX_scope #(
 `endif
 
 endmodule
+
 `TRACING_ON

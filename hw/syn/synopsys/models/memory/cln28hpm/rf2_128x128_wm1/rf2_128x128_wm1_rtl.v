@@ -157,6 +157,7 @@ module rf2_128x128_wm1_rtl_top (
 
 endmodule
 
+
 module rf2_128x128_wm1_fr_top (
           CENYA, 
           AYA, 
@@ -271,5 +272,6 @@ module rf2_128x128_wm1_fr_top (
          .COLLDISN(COLLDISN)
    );
 
-endmodule // rf2_128x128_wm1_fr_top
+endmodule
+ // rf2_128x128_wm1_fr_top
 

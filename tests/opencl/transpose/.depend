@@ -1,0 +1,8 @@
+main.o: main.cc oclUtils.h shrUtils.h \
+ /opt/pocl/runtime/include/CL/opencl.h /opt/pocl/runtime/include/CL/cl.h \
+ /opt/pocl/runtime/include/CL/cl_version.h \
+ /opt/pocl/runtime/include/CL/cl_platform.h \
+ /opt/pocl/runtime/include/CL/cl_gl.h \
+ /opt/pocl/runtime/include/CL/cl_gl_ext.h \
+ /opt/pocl/runtime/include/CL/cl_ext.h shrQATest.h
+transpose_gold.o: transpose_gold.cpp

@@ -1,0 +1,49 @@
+--2022-04-11 15:15:56--  https://github.com/vortexgpgpu/vortex-toolchain-prebuilt/raw/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Resolving github.com (github.com)... 52.78.231.108
+Connecting to github.com (github.com)|52.78.231.108|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa [following]
+--2022-04-11 15:15:56--  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 143.248.4.221, 143.248.4.221
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:20:23--  (try: 2)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:24:50--  (try: 3)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:29:17--  (try: 4)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:33:45--  (try: 5)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:38:17--  (try: 6)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:42:49--  (try: 7)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:47:22--  (try: 8)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Retrying.
+
+--2022-04-11 15:51:54--  (try: 9)  https://raw.githubusercontent.com/vortexgpgpu/vortex-toolchain-prebuilt/master/riscv-gnu-toolchain/ubuntu/bionic/riscv-gnu-toolchain.tar.bz2.partaa
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... failed: Connection timed out.
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|143.248.4.221|:443... 

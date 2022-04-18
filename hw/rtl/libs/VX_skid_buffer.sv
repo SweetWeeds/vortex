@@ -131,4 +131,5 @@ module VX_skid_buffer #(
     end
 
 endmodule
+
 `TRACING_ON

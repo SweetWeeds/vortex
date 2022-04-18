@@ -57,4 +57,5 @@ module VX_fair_arbiter #(
     end
     
 endmodule
+
 `TRACING_ON

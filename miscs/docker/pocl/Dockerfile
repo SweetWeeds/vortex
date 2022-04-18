@@ -1,4 +1,3 @@
-.
 #
 # Dockerfile for Vortex POCL compiler
 #
@@ -28,7 +27,7 @@ RUN apt-get -y install \
   make cmake ninja-build automake bison flex gperf \
   grep sed gawk python bc \
   zlib1g-dev libexpat1-dev libmpc-dev \
-  libglib2.0-dev libfdt-dev libpixman-1-dev
+  libglib2.0-dev libfdt-dev libpixman-1-dev gcc g++ libedit-dev
 
 # install GNU RISC-V Tools dependencies
 RUN git clone https://github.com/riscv/riscv-gnu-toolchain /tmp/riscv-gnu-toolchain
@@ -54,14 +53,16 @@ RUN cd /tmp/llvm-project/build; \
 RUN rm -rf /tmp/llvm-project
 
 # install Vortex
-RUN git clone -b fpga_synthesis https://$LOGIN@github.gatech.edu/casl/Vortex.git $VORTEX_HOME
+#RUN git clone -b fpga_synthesis https://$LOGIN@github.gatech.edu/casl/Vortex.git $VORTEX_HOME
+RUN git clone -b fpga_synthesis https://github.com/vortexgpgpu/vortex.git $VORTEX_HOME
 RUN cd $VORTEX_HOME; \
     make -C rtl build_config; \
     make -C runtime build_config; \
     make -C driver/sw/stub
 
 # install POCL
-RUN git clone https://$LOGIN@github.gatech.edu/casl/pocl.git /tmp/pocl
+#RUN git clone https://$LOGIN@github.gatech.edu/casl/pocl.git /tmp/pocl
+RUN git clone https://github.com/vortexgpgpu/pocl.git /tmp/pocl
 RUN cd /tmp/pocl; \
     mkdir build_cc
 RUN cd /tmp/pocl/build_cc; \

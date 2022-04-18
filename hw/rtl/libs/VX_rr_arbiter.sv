@@ -247,4 +247,5 @@ module VX_rr_arbiter #(
     end
     
 endmodule
+
 `TRACING_ON

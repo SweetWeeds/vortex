@@ -93,4 +93,5 @@ module VX_divider #(
 `endif
 
 endmodule
+
 `TRACING_ON

@@ -41,4 +41,5 @@ module VX_find_first #(
     assign data_o  = d_n[0];
   
 endmodule
+
 `TRACING_ON

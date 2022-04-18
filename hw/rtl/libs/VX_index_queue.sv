@@ -61,4 +61,5 @@ module VX_index_queue #(
     assign read_data = entries[read_addr];
 
 endmodule
+
 `TRACING_ON

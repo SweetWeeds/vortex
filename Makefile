@@ -1,9 +1,15 @@
 all:
+	$(info Third party)
 	$(MAKE) -C third_party
+	$(info HW)
 	$(MAKE) -C hw
+	$(info Sim)
 	$(MAKE) -C sim
+	$(info Driver)
 	$(MAKE) -C driver
+	$(info Runtime)
 	$(MAKE) -C runtime
+	$(info Tests)
 	$(MAKE) -C tests
 
 clean:

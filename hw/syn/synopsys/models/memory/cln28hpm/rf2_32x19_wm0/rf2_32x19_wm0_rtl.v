@@ -148,6 +148,7 @@ module rf2_32x19_wm0_rtl_top (
 
 endmodule
 
+
 module rf2_32x19_wm0_fr_top (
           CENYA, 
           AYA, 
@@ -253,5 +254,6 @@ module rf2_32x19_wm0_fr_top (
          .COLLDISN(COLLDISN)
    );
 
-endmodule // rf2_32x19_wm0_fr_top
+endmodule
+ // rf2_32x19_wm0_fr_top
 

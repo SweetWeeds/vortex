@@ -1,0 +1,6 @@
+make: Entering directory '/mnt/c/Users/user/workspace/vortex/tests/opencl/query'
+LD_LIBRARY_PATH=/opt/pocl/runtime/lib:/mnt/c/Users/user/workspace/vortex/driver/fx3: ./query -n64
+Segmentation fault
+Makefile:58: recipe for target 'run-fx3' failed
+make: *** [run-fx3] Error 139
+make: Leaving directory '/mnt/c/Users/user/workspace/vortex/tests/opencl/query'

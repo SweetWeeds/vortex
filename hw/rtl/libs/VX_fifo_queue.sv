@@ -229,4 +229,5 @@ module VX_fifo_queue #(
     end
 
 endmodule
+
 `TRACING_ON
